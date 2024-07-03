@@ -1,0 +1,8 @@
+name: FarmingSpawn
+version: '${version}'
+main: ru.dementerqq.farmingspawn.FarmingSpawn
+api-version: '1.16'
+authors: [Dementerqq]
+description: Farming at spawn
+depend:
+  - Vault
