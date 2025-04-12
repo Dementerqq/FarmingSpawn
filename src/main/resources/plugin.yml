@@ -6,3 +6,15 @@ authors: [Dementerqq]
 description: Farming at spawn
 depend:
   - Vault
+
+commands:
+  farmingspawn:
+    description: Control FarmingSpawn
+    usage: /farmingspawn <reload>
+    permission: farmingspawn.admin
+    permission-message: "&8[&aFarmingSpawn&8] &7У вас нету права использовать данную команду!"
+
+permissions:
+  farmingspawn.admin:
+    description: Разрешает использовать команду /farmingspawn
+    default: op
